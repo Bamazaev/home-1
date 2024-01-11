@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+header {
+  color: rgba(0, 0, 0, 0);
+  width: 100%;
+  margin: auto;
+  height: 95px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 15% 20% 50% 15%;
+  background: rgba(226, 231, 236, 0.8);
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  gap: 10px;
+}
+header .logo {
+  width: 100%;
+}
+header .logo img {
+  width: 126px;
+  height: 55px;
+}
+header nav {
+  display: flex;
+  height: 24px;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+header nav a {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 10px;
+}
+.slider .item1 {
+  justify-content: center;
+  margin: auto;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 107.692% */
+}
+.slider .item1 h1 {
+  width: 568.42px;
+  height: 231px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 107.692% */
+}
+.slider .item1 a {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  border: 2px solid #76A9FA;
+  background: #76A9FA;
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.slider .item2 video {
+  width: 503.498px;
+  height: 313.75px;
+  border-radius: 25px;
+}
+
+.job {
+  text-align: center;
+}
+.job h1 {
+  padding-top: 44px;
+}
+.job .jobb {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.job .jobb .job1 {
+  width: 350px;
+  padding-top: 60px;
+}
+
+.kursi1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background: #C1DEED;
+}
+.kursi1 a {
+  color: #1a3e61;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  padding: 12.42px 20.17px 11.58px 20.16px;
+  border-radius: 100px;
+  background: #a1d8f3;
+  text-decoration: none;
+}
+
+.kurs {
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  grid-template-rows: 321px 321px;
+  text-align: center;
+  padding: 28px 40px;
+  background: #C1DEED;
+  gap: 60px;
+  margin: auto;
+  padding-left: 180px;
+}
+.kurs .kurs1 {
+  background: #FFF;
+  border-radius: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.kurs .kurs1 img {
+  padding-top: 30px;
+}
+.kurs .kurs1 h2 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.kurs .kurs1 .k1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+}
+
+.akademi {
+  width: 75%;
+  margin: auto;
+}
+.akademi h1 {
+  padding-top: 48px;
+  padding-left: 200px;
+}
+.akademi .aka1 {
+  display: flex;
+  justify-content: space-between;
+}
+.akademi .aka1 a {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-decoration: none;
+  border-radius: 100px;
+  border: 1px solid #76A9FA;
+  padding: 14px 26.3px 15px 26.3px;
+}
+.akademi .akademi1 {
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  grid-template-rows: 356px;
+  gap: 25px;
+  padding-bottom: 144px;
+  padding-top: 64px;
+}
+.akademi .akademi1 .akdemi2 {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.1), 0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.akademi .akademi1 .akdemi2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.akademi .akademi1 .akdemi2 h1 {
+  padding-left: 28px;
+  padding-top: 16px;
+}
+
+.fidbeck h1 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.fidbeck p {
+  text-align: center;
+}
+.fidbeck .back {
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  justify-content: space-evenly;
+  padding-bottom: 72px;
+}
+.fidbeck .back .back1 {
+  text-align: center;
+}
+.fidbeck .back .back1 img {
+  padding-top: 25px;
+}
+.fidbeck .back .back1 p {
+  display: flex;
+  width: 320px;
+  padding: 72px 11.88px 72px 12.08px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 73px;
+  border-radius: 8px;
+  background: #A4CAFE;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 70%;
+  margin: auto;
+  background-color: #C1DEED;
+  border-radius: 15px 15px 0 0;
+  padding: 45px 40px;
+  gap: 45px;
+}
+footer a {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  header {
+    grid-template-columns: auto auto;
+  }
+  .slider {
+    grid-template-columns: auto auto;
+  }
+  .kurs {
+    grid-template-columns: auto;
+    padding: 15px;
+  }
+  .job .jobb {
+    grid-template-columns: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
