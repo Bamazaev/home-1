@@ -253,16 +253,28 @@ footer a {
 
 @media (max-width: 1000px) {
   header {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+    padding: 0;
   }
   .slider {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+    padding: 0;
   }
   .kurs {
     grid-template-columns: auto;
     padding: 15px;
   }
   .job .jobb {
+    grid-template-columns: auto;
+  }
+  .akademi .akademi1 {
+    grid-template-columns: auto;
+    padding: 0;
+  }
+  .fidbeck .back {
+    grid-template-columns: auto;
+  }
+  footer {
     grid-template-columns: auto;
   }
 }/*# sourceMappingURL=style.css.map */
